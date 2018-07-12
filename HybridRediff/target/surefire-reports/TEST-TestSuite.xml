@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="5" name="TestSuite" time="375.146" errors="0" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\SeleniumSetup\HybridRediff"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\SeleniumSetup\HybridRediff"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\pc\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\java\apache\ant\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\java\apache\ant\apache-maven-3.5.4\bin;C:\java\apache\ant\apache-ant-1.10.4\bin;C:\Users\pc\AppData\Local\Microsoft\WindowsApps;JAVA_HOME;;."/>
+    <property name="maven.conf" value="C:\java\apache\ant\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\java\apache\ant\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\pc"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="pc"/>
+    <property name="java.class.path" value="C:\java\apache\ant\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\java\apache\ant\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.qtpselenium.rediff.hybrid.testcases.stocksuite.BuySellStockTest" name="buyOrSellStockTest" time="43.772">
+    <failure type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qtpselenium.rediff.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:47)
+	at com.qtpselenium.rediff.hybrid.testcases.stocksuite.BuySellStockTest.buyOrSellStockTest(BuySellStockTest.java:23)
+Caused by: java.lang.AssertionError: The following asserts failed:
+	Option not found in list ashish
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.qtpselenium.rediff.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:348)
+	at com.qtpselenium.rediff.hybrid.keywords.GenericKeywords.select(GenericKeywords.java:167)
+	... 26 more
+</failure>
+    <system-out>[TestNGContentHandler] [WARN] It is strongly recommended to add &quot;&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot; &gt;&quot; at the top of your file, otherwise TestNG may fail or not work as expected.
+*** BuySellStockTest
+D:\SeleniumSetup\HybridRediff\Files\StockSuite.xlsx
+*** LoginTest
+D:\SeleniumSetup\HybridRediff\Files\PortfolioSuite.xlsx
+*** AddDelStockTest
+D:\SeleniumSetup\HybridRediff\Files\StockSuite.xlsx
+*** PortFolioTest
+D:\SeleniumSetup\HybridRediff\Files\PortfolioSuite.xlsx
+LoginTest
+AddStockTest
+AddStockTest
+Row Number of test is 1
+LoginTest
+Row Number of test is 1
+Row Number of test is 5
+Total Cols - 3
+Row Number of test is 9
+Total Cols - 8
+Total Rows 1
+{Date=5/03/2018, Action=Sell, PurchasePrice=200, PortfolioName=ashish, Runmode=Y, Stock Name=Reliance Inds., Quantity=100, Browser=Chrome}
+----------------
+Total Cols - 7
+Total Rows 1
+Total Rows 2
+{PortfolioName=SamplePort1311, Runmode=Y, Browser=Chrome}
+----------------
+{PortfolioName=SamplePort1411, Runmode=Y, Browser=Mozilla}
+----------------
+{Date=5/03/2018, PurchasePrice=200, PortfolioName=ashish, Runmode=Y, Stock Name=Tata Steel Ltd, Quantity=100, Browser=Chrome}
+----------------
+Total Cols - 5
+Total Rows 1
+{Username=ashishthakur1983, ExpectedResult=Loginsuccess, Password=pass@1234, Runmode=Y, Browser=Chrome}
+----------------
+D:\SeleniumSetup\HybridRediff\report\Mon_Jul_09_17_08_48_IST_2018//Report.html
+D:\SeleniumSetup\HybridRediff\report\Mon_Jul_09_17_08_48_IST_2018//Report.html
+D:\SeleniumSetup\HybridRediff\report\Mon_Jul_09_17_08_48_IST_2018//Report.html
+D:\SeleniumSetup\HybridRediff\report\Mon_Jul_09_17_08_48_IST_2018//Report.html
+Rows 25
+Rows 22
+Rows 22
+Rows 25
+</system-out>
+    <system-err>Jul 09, 2018 5:08:48 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jul 09, 2018 5:08:48 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jul 09, 2018 5:08:48 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jul 09, 2018 5:08:48 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Jul 09, 2018 5:08:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Jul 09, 2018 5:08:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.qtpselenium.rediff.hybrid.testcases.stocksuite.BuySellStockTest" name="checkTransactionHistoryTest" time="44.644">
+    <skipped/>
+    <system-err>log4j:WARN No appenders could be found for logger (freemarker.cache).
+log4j:WARN Please initialize the log4j system properly.
+</system-err>
+  </testcase>
+  <testcase classname="com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStockTest" name="addStockTest" time="45.788">
+    <failure type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qtpselenium.rediff.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:47)
+	at com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStockTest.addStockTest(AddDelStockTest.java:24)
+Caused by: java.lang.AssertionError: The following asserts failed:
+	Option not found in list ashish
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.qtpselenium.rediff.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:348)
+	at com.qtpselenium.rediff.hybrid.keywords.GenericKeywords.select(GenericKeywords.java:167)
+	... 26 more
+</failure>
+  </testcase>
+  <testcase classname="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.LoginTest" name="loginTest" time="40.551"/>
+  <testcase classname="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest" name="createPortFolioTest" time="52.525">
+    <failure type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qtpselenium.rediff.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:47)
+	at com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:25)
+Caused by: java.lang.AssertionError: The following asserts failed:
+	Values Dont match. Got value as 25Port
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.qtpselenium.rediff.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:348)
+	at com.qtpselenium.rediff.hybrid.keywords.GenericKeywords.waitTillSelectionToBe(GenericKeywords.java:269)
+	at com.qtpselenium.rediff.hybrid.keywords.AppKeywords.verifyPortFolio(AppKeywords.java:75)
+	... 26 more
+</failure>
+    <system-err>Jul 09, 2018 5:10:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStockTest" name="deleteStockTest" time="29.082">
+    <failure type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qtpselenium.rediff.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:47)
+	at com.qtpselenium.rediff.hybrid.testcases.stocksuite.AddDelStockTest.deleteStockTest(AddDelStockTest.java:37)
+Caused by: java.lang.AssertionError: The following asserts failed:
+	Option not found in list ashish
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.qtpselenium.rediff.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:348)
+	at com.qtpselenium.rediff.hybrid.keywords.GenericKeywords.select(GenericKeywords.java:167)
+	... 26 more
+</failure>
+    <system-out>Rows 22
+</system-out>
+    <system-err>Jul 09, 2018 5:10:27 PM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+Jul 09, 2018 5:10:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest" name="createPortFolioTest" time="58.78">
+    <failure type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.qtpselenium.rediff.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:47)
+	at com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest.createPortFolioTest(PortFolioTest.java:25)
+Caused by: java.lang.AssertionError: The following asserts failed:
+	Values Dont match. Got value as 25Port
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at com.qtpselenium.rediff.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:348)
+	at com.qtpselenium.rediff.hybrid.keywords.GenericKeywords.waitTillSelectionToBe(GenericKeywords.java:269)
+	at com.qtpselenium.rediff.hybrid.keywords.AppKeywords.verifyPortFolio(AppKeywords.java:75)
+	... 26 more
+</failure>
+    <system-out>complete
+0
+</system-out>
+  </testcase>
+  <testcase classname="com.qtpselenium.rediff.hybrid.testcases.portfoliosuite.PortFolioTest" name="deletePortFolioTest" time="60.004">
+    <skipped/>
+  </testcase>
+</testsuite>
